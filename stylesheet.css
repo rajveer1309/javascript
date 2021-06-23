@@ -1,0 +1,17 @@
+h1{
+    padding: auto;
+    margin-left: 620px;
+}
+
+.login {
+  height: 110px;
+  width: 190px;
+  margin: auto;
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.login input {
+  padding: 5px;
+  margin: 5px;
+}
