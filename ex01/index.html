@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-
+    <script src="./functions.js"></script>
     <title>CSS Login form</title>
   </head>
   <h1>
@@ -13,9 +13,9 @@
     <div class="login">
       <input type="password" placeholder="password" id="password" />
 
-      <input type="password" placeholder="re enter Password" id="re enter password" />
+      <input type="password" placeholder="re enter Password" id="confirmpassword" />
 
-      <input type="submit" value="Sign In" />
+      <input type="submit" value="Sign In" onclick="confirmPassword()" />
     </div>
   </body>
 </html>
