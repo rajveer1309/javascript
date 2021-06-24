@@ -1,12 +1,8 @@
 function confirmPassword(){
-    var password=document.getElementById("password").value;
+    var username=document.getElementById("username").value;
     var confirmpassword=document.getElementById("confirmpassword").value;
     
-    if(password==confirmpassword){
-        alert("success")
+    if(!username){
+        alert("enter username")
     }
-    else{
-        alert("fail")
-    }
-
 }
